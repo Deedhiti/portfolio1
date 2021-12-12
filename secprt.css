@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    background-image: url("portfolio1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+
+    
+    color: rgb(24, 24, 61);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:#fc9b8a;
+    color: rgb(138, 31, 31);
+    padding-inline: 15px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    width: 80vw;
+    margin-inline: auto;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.heading span {
+    border-bottom: 1.5px solid #b22222;
+}
+
+.about img{
+
+   
+      height: 200px;
+      width: 150px;
+      
+      
+    }
+
+.skills-container {
+    display: flex;
+    font-size: 22px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
